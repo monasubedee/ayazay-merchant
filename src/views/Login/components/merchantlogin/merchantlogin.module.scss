@@ -1,0 +1,207 @@
+.logincomponent_container{
+    margin-top: 8%;
+    font-family: 'Montserrat','myanmar';
+
+.login_text{
+    @media (max-width:476px) {
+        font-size: 15px;
+        height: 58px;
+        line-height: 2;
+    }
+    @media (max-width:380px) {
+        font-size: 14px;
+    }
+    font-size: 28px;
+    line-height: 2.5rem;
+    color: #394358;
+    font-weight: 400;
+
+}
+.font_bold{
+    font-weight: 800;
+    font-size: 28px;
+    color: #394358;
+    margin-left: 1rem;
+    @media (max-width:380px) {
+        font-size: 16px;
+    }
+}
+.input_texts{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom :20px;
+    .error{
+        border-color: red;
+     }
+
+    .errorMessage{
+        font-size: 15px;
+        color: red;
+        margin-top: 5px;
+
+    }
+
+    .mearchant_id,
+    .merchant_password{
+        width: 97%;
+        border-radius: 8px;
+        border: solid 1px #cbcbcb;
+        background-color: #edeff2;
+        margin-top: 20px;
+        padding: 16px 0px 16px 10px;
+        font-size: 16px;
+        font-weight: 500;
+        color: #394358;
+
+
+        @media (max-width:380px) {
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+    }
+    .mearchant_id:focus,
+    .merchant_password:focus{
+        border: 1px solid darkblue;
+    }
+
+
+}
+.login_button{
+    width: 100%;
+    border-radius: 8px;
+    background-color: #aa222a;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    @media (max-width:380px) {
+        font-size: 14px;
+        margin-top: 0px !important;
+        padding: 15px !important;
+    }
+    @media (max-width:476px) {
+        padding: 21px;
+      }
+      @media (max-width:678px){
+        margin-top: 24px;
+        padding: 21px;
+      }
+      @media (min-width:678px){
+        margin-top: 24px;
+        padding: 15px;
+      }
+}
+
+
+.phone_login{
+    color: #ffffff;
+    background-color: #394358;
+    width: 100%;
+    border: none;
+    border-radius:8px ;
+    letter-spacing: 0.75px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 15px;
+    padding: 15px;
+    i{
+        padding-left:10px ;
+        transform: scaleX(-1);
+    }
+    @media (max-width:380px) {
+        font-size: 12px;
+        padding: 15px !important;
+    }
+    @media (max-width:476px) {
+        padding: 21px;
+      }
+      @media (max-width:678px){
+        margin-top: 24px;
+        padding: 21px;
+      }
+      @media (min-width:678px){
+        margin-top: 25px;
+      }
+}
+
+.link{
+
+    @media (max-width:380px){
+        font-size: 13px;
+        margin-bottom: 1.5rem;
+    }
+    @media screen and (max-width:476px) {
+        height: 18px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+    }
+    padding-top: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: underline;
+
+}
+.link a{
+    color: #394358;
+}
+.errorMessage{
+    font-family: inherit;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+}
+
+    .line_through_wrap{
+        text-align: center;
+        margin-bottom: 24px;
+        .line_through {
+            overflow: hidden;
+            text-align: center;
+            color: #b2b2b2;
+            font-size: 13px;
+            margin-top: 75px;
+                @media (max-width:380px) {
+                    font-size: 12px;
+                }
+
+        }
+    }
+
+    .line_through:before,
+    .line_through:after {
+        background-color: #b2b2b2;
+        content: "";
+        display: inline-block;
+        height: 1px;
+        position: relative;
+        vertical-align: middle;
+        width: 20%;
+        color: #b2b2b2;
+
+    }
+
+    .line_through:before {
+        right: 0.5em;
+        margin-left: 15%;
+    }
+
+    .line_through:after {
+        left: 0.5em;
+        margin-right: 15%;
+    }
+
+}
+
+

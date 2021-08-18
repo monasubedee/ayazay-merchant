@@ -1,0 +1,47 @@
+   body{
+    margin: 0;
+   }
+   
+   .rootCenter  {
+         margin-top: 10px;
+         height: 100vh;
+         display: flex;
+         justify-content : center;
+        
+   }
+
+   .input{
+       display: none;
+   }
+
+    .cardCenter {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+         .formGroup {
+             margin-top: 20px;
+             margin-bottom : 40px;
+         }
+
+
+         .formControl {
+             margin : 3px;
+             min-width: 120;
+         }
+    
+   
+         .fieldGroup {
+             display: flex;
+             justify-content: center;
+             text-align: center;
+             align-items :center ;
+         }
+    
+   
+         .avatar {
+             height: 150px;
+             width: 150px;
+             margin-bottom: 80px;
+         }
+        

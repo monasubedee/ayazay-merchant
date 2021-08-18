@@ -1,0 +1,69 @@
+.FooterContact_container{
+    margin:  auto;
+    margin-top: 32px;
+.ft_service{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 42px;
+    @media (max-width:476px) {
+        justify-content: space-between;
+    }
+    .ft_text{
+        width: auto;
+        margin:0 16px ;
+        line-height: 1.38;
+    }
+    .ft_text h2{
+        font-size: 14px;
+        font-weight: 600;
+        padding:5px 0;
+    }
+    .ft_text p{
+        font-size: 13px;
+        font-weight: 400;
+        padding:8px 5px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .ft_link a{
+        text-decoration: none;
+        color:#ffffff;
+        padding:  10px 0px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+
+    .ft_link_explore{
+        background-color: #ffffff;
+        text-align: center;
+        width: 154px;
+        border-radius: 4px;
+        padding: 12px;
+        margin-top: 19px;
+    }
+    .ft_link_explore strong{
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 0.75px;
+        text-align: center;
+        color: #aa222a;
+        font-size: 16px;
+    }
+
+    .ft_link_soical{
+        display: inline-block;
+        margin-top: 28px;
+    }
+
+    .ft_link_soical a:first-child{
+        padding-right: 22px;
+    }
+
+    .ft_link_soical i{
+        font-size: 20px;
+    }
+
+}
+}

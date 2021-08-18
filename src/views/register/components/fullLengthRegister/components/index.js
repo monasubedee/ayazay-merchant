@@ -1,0 +1,1 @@
+export { default as NRC } from './NRC';

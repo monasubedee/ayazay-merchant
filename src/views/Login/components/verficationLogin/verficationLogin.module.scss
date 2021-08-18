@@ -1,0 +1,125 @@
+.VerficationLogin_container{
+    margin-top: 10%;
+    padding-top: 16px;
+    @media (max-width:476px) {
+        margin-top: 5%;
+    }
+    .errorMessage{
+        color: red;
+        font-size: 16px;
+    }
+   .verfi_text{    
+        font-size: 20px;        
+        color: #394358;
+        font-weight: normal;
+        line-height: 1.4;
+        margin-bottom: 4rem;
+        @media (max-width:476px) {
+            margin-bottom:2rem ;
+            font-size: 16px;
+            line-height: 1.2;
+        }
+        .code_info{
+            @media screen and (max-width:360px) {
+                width: 269px;
+                height: 72px;
+                font-size: 16px;
+                line-height: 1.5;
+            }        
+        }
+        .font_bold{
+
+            font-weight: 800;
+            font-size: 17px;
+            margin: 0 0.5rem 0 0;
+        }
+    }
+
+    .inputs{     
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 32px;
+        
+        @media (max-width:476px) {
+            margin-bottom: 16px;
+        }
+        .block_input{
+            @media (max-width:476px) {                                
+                margin-right: 8px;
+                padding: 12px;
+            }
+            width: 100%;
+            padding: 20px 18px;
+            margin-right: 12px;
+            border: 1px solid #cbcbcb;
+            border-radius: 8px;
+            background-color: #edeff2;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+    .login_button{
+        @media screen and (max-width:476px) {            
+            padding: 15px;
+          }
+          @media only screen and (max-width:678px)and (min-width:476px){
+            padding: 15px;
+          }
+          @media only screen and (max-width:876px) and (min-width:678px){
+            padding: 21px;
+          }
+
+        width: 100%;
+        border-radius: 8px;
+        background-color: #aa222a;
+        text-decoration: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        padding: 18px;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+    }
+
+    .code_info_question{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        color: #394358;
+        margin-bottom:56px ;
+        margin-top: 2.2rem;
+        a{
+            font-weight:800;
+            padding: 0 10px;
+            text-decoration: underline;
+        }
+        @media (max-width:476px) {
+            margin-bottom: 26px;
+        }
+    }
+    .contact_support{
+        @media screen and (max-width:476px) {
+            padding: 15px;
+          }
+          @media only screen and (max-width:678px)and (min-width:476px){
+            padding: 15px;
+          }
+          @media only screen and (max-width:876px) and (min-width:678px){
+            margin-top: 20px;
+          }          
+          width: 100%;
+          border-radius: 8px;
+          background-color: #ffffff;
+          text-decoration: none;
+          text-align: center;
+          font-size: 16px;
+          font-weight: 600;
+          padding: 18px;
+          color: #394358;
+          cursor: pointer;
+          border: 1px solid #394358;
+          margin-bottom: 20px;
+    }
+
+}

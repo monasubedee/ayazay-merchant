@@ -1,0 +1,273 @@
+.FullLengthRegister_container{
+    padding: 0 16px;
+    @media screen and (max-width:476px){
+        font-size: 16px;
+
+    }
+    @media only screen and (max-width:876px) and (min-width:476px){
+        font-size: 19px;
+        margin-top: 8%;
+    }
+    width: 100%;
+    color: #394358;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 391px;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    margin-top: 8%;
+    label{
+        padding: 0 8px;
+    }
+    .bold{
+        font-weight: bold;
+        padding: 0 8px;
+    }
+    .aya_info{
+        @media screen and (max-width:476px){
+            font-size: 24px;
+            margin-bottom: 24px;
+        }
+        @media only screen and (max-width:768px) and (min-width:467px){
+            margin-bottom: 30px;
+        }
+        font-size: 32px;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+    .shop_info{
+        @media screen and (max-width:476px){
+            font-size: 16px;
+        }
+        @media screen and (max-width:876px) and (min-width:476px){
+            font-size: 18px;
+        }
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.4;
+        margin-bottom: 24px;
+    }
+    .shop_radio{
+        @media screen and (max-width:476px){
+            font-size: 16px;
+        }
+        @media screen and (max-width:876px) and (min-width:476px){
+            font-size: 18px;
+        }
+        margin-bottom: 8px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 24px;
+        input[type=radio   ]::before{
+            width     : 2em;
+            margin    : 0;
+            padding   : 0;
+            font-size : 1em;
+            opacity   : 0;
+        }
+    }
+    .shop_input{
+        @media screen and (max-width:476px){
+            height: 60px;
+            margin-bottom: 10px;
+        }
+        width: 100%;
+        padding: 20px 18px;
+        margin-bottom: 16px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Montserrat';
+        border-radius: 8px ;
+        border: 1px solid #cbcbcb ;
+        background-color:#f4f5f8;
+    }
+    .shop_input:focus{
+        border: 1px solid darkblue;
+    }
+    .shop_input_active{
+        @media screen and (max-width:476px){
+            height: 60px;
+            margin-bottom: 10px;
+        }
+        width: 100%;
+        padding: 20px 18px;
+        margin-bottom: 16px;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: 'Montserrat';
+        border-radius: 8px ;
+        border: 1px solid #aa222a ;
+        background-color:#f4f5f8;
+    }
+    .employees_info{
+        @media screen and (max-width:476px){
+            margin-top: 22px;
+            margin-bottom: 50px;
+        }
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .shop_text{
+        margin-top: 8px;
+    }
+
+    .Product_info{
+        @media screen and (max-width:476px){
+            margin-bottom: 50px;
+        }
+        margin-bottom: 45px;
+        .checks{
+            @media screen and (max-width:476px){
+                margin-top: 17px;
+            }
+            margin-top: 24px;
+            .check {
+                margin: 10px;
+            }
+            label{
+                padding: 10px;
+            }
+
+        }
+    }
+    .terms_conditions{
+        @media screen and (max-width:476px){
+            font-size: 16px;
+        }
+        padding: 0 2px;
+        a{
+            padding: 0 3px;
+        }
+    }
+    .business_info{
+        @media screen and (max-width:476px){
+            margin-top: 20px;
+        }
+        line-height: 1.4;
+        margin-top: 45px;
+        margin-bottom: 8px;
+    }
+    .textarea{
+        padding: 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 150px;
+        border-radius: 8px;
+        border: solid 1px #cbcbcb;
+        background-color: #f4f5f8;
+        font-family: 'Montserrat';
+        font-weight: 500;
+    }
+    .textarea_active{
+        padding: 10px;
+        font-size: 20px;
+        width: 100%;
+        height: 150px;
+        border-radius: 8px;
+        border: solid 1px #aa222a;
+        background-color: #f4f5f8;
+        font-family: 'Montserrat';
+        font-weight: 500;
+    }
+    .check_me{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.38;
+        margin-top:24px ;
+    }
+    .Register_button {
+        margin-top: 20px;
+        color: #fafafa;
+        cursor: pointer;
+        background: #aa222a;
+        font-size: 16px;
+        font-weight: 600;
+        border: 0;
+        padding: 14px;
+        transition: all 0.5s;
+        border-radius: 10px;
+        width: auto;
+        position: relative;
+        width: 100%;
+        @media (max-width:876px) {
+            font-size: 16px;
+        }
+
+        &:hover {
+            background: #aa222a;
+            transition: all 0.5s;
+            border-radius: 10px;
+            box-shadow: 0px 6px 15px #0000ff61;
+            color: #ffffff;
+        }
+
+        &:disabled{
+            transition: all 0.5s;
+            border-radius: 10px;
+            box-shadow: none;
+            cursor:progress;
+            color: #ffffff;
+            background: #aa222a;
+        }
+
+    }
+
+
+    .ellipsis {
+        display: inline-block;
+        position: relative;
+        width: 20%;
+        text-align: center;
+        height: 10px;
+    }
+    .ellipsis div {
+        position: absolute;
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        background: #fff;
+        animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    }
+    .ellipsis div:nth-child(1) {
+        left: 8px;
+        animation: lds-ellipsis1 0.6s infinite;
+    }
+    .ellipsis div:nth-child(2) {
+        left: 8px;
+        animation: lds-ellipsis2 0.6s infinite;
+    }
+    .ellipsis div:nth-child(3) {
+        left: 32px;
+        animation: lds-ellipsis2 0.6s infinite;
+    }
+    .ellipsis div:nth-child(4) {
+        left: 56px;
+        animation: lds-ellipsis3 0.6s infinite;
+    }
+    @keyframes lds-ellipsis1 {
+        0% {
+            transform: scale(0);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    @keyframes lds-ellipsis3 {
+        0% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0);
+        }
+    }
+    @keyframes lds-ellipsis2 {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(24px, 0);
+        }
+    }
+
+}
+

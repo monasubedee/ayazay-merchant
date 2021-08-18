@@ -1,0 +1,52 @@
+
+.dd_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom:32px ;
+
+
+    .dd_header {
+      outline: 0;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      width: 100%;
+      padding: 0 15px;
+
+      &__title_bold {
+        font-weight: 600;
+        padding: 8px 0;
+      }
+      &__action p{
+        color :#ffffff;
+        font-size: 12px;
+        padding: 8px 0;
+      }
+    }
+
+    .dd_list {
+      padding:12px 15px;
+      margin: 0;
+      width: 100%;
+
+        .dd_list_item{
+         display: flex;
+         flex-direction: column;
+         padding: 3px 0px;
+         .dd_list_Link {
+          line-height: 1.38;
+          text-align: left;
+          h2{
+            font-size:14px !important;
+            font-weight: 600;
+            padding-bottom: 3px important;
+          }
+          p{
+            font-weight: 400;
+            font-size: 13px;
+          }
+        }
+        }
+    }
+  }

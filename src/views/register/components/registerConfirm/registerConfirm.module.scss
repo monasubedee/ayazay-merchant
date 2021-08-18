@@ -1,0 +1,99 @@
+.RegisterComfirm_container{
+    @media screen and (max-width:476px){
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    color: #394358;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 391px;
+    font-family: 'Montserrat';
+    margin: 0 auto;
+    margin-top: 15%;
+
+
+    .verfi_text{
+        @media screen and (max-width:476px){
+            width: 95%;
+            font-size: 16px;
+            margin-top: 50px;
+        }
+
+        @media only screen and (max-width:768px) and (min-width:476px){
+            margin-top: 0px;
+            margin-bottom: 35px;
+        }
+
+        font-size: 20px;
+        text-align: center;
+        line-height: 1.7;
+        color: #394358;
+        font-weight: normal;
+        line-height: 1.4;
+        margin-bottom: 32px;
+        .font_bold{
+            font-weight: 800;
+            font-size: 19px;
+        }
+    }
+
+    .inputs{
+        display: flex;
+        margin-bottom: 50px;
+        justify-content: space-around;
+        @media screen and (max-width:476px){
+            margin-bottom: 24px;
+        }
+
+        .block_input{
+            @media screen and (max-width:476px){
+                margin-right: 9px;
+            }
+            width: 100%;
+            padding: 18px 15px;
+            margin-right: 20px;
+            border: 1px solid #cbcbcb;
+            border-radius: 8px;
+            background-color: #edeff2;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .block_input:last-child{
+                margin-right: 0px;
+        }
+
+    }
+    .comfirm{
+        @media screen and (max-width:476px){
+            width: 100%;
+        }
+
+        text-transform: uppercase;
+        width: 391px;
+        border-radius: 8px;
+        background-color: #aa222a;
+        text-align: center;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 600;
+        outline: 0;
+        display: inline-block;
+        cursor: pointer;
+        border: none;
+    }
+
+    .account{
+        text-align: center;
+        margin-top: 100%;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        a{
+            text-decoration: underline;
+            color: #aa222a;
+        }
+    }
+}
